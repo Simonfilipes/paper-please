@@ -15,15 +15,15 @@ const App = () => {
   return (
     <div>
 
-      <header className="w-full h-29 transform -translate-y-full hover:translate-y-0 transition-all duration-500 absolute top-0 left-0">
+      {/* <header className="w-full h-29 transform -translate-y-full hover:translate-y-0 transition-all duration-500 absolute top-0 left-0">
         <Header />
-      </header>
+      </header> */}
 
       <Hero/>
 
-      <AbtGame />
+      {/* <AbtGame />
 
-      <Trailer />
+      <Trailer /> */}
 
       {/* <Plataforms /> */}
 

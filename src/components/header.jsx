@@ -10,7 +10,7 @@ const header = () => {
       <div className="mt-3 flex flex-row justify-between -translate-y-18">
         <div className="logo">
           <img
-            src="logo.webp"
+            src="xbox.png"
             className="w-40 h-20 object-contain"
             alt="logo"
           />
