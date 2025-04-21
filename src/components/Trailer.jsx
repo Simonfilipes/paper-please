@@ -28,7 +28,7 @@ const Trailer = () => {
 
       <video
         ref={videoRef}
-        className={`transition-all ease-in-out duration-1000 mt-180 scroll-reveal w-180 h-100 rounded-sm shadow-lg ${
+        className={`transition-all ease-in-out duration-1000 mt-190 scroll-reveal w-180 h-100 rounded-sm shadow-lg ${
           !isPaused
             ? "border-2 border-white rounded-2x"
             : "border-2 border-white rounded-2x"

@@ -24,9 +24,9 @@ const PlayMusicButton = () => {
     <div>
     <button onClick={PlayMusic} className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 w-45 h-20 text-2xl bg-transparent border border-white text-white font-bold transform hover:scale-95 transition duration-400">
         {isPlaying ? (
-            <>Play Music <i class="bi bi-pause-fill"></i></>
+            <>Play Music <br /> <i class="bi bi-pause-fill"></i></>
         ) : (
-            <>Play Music <i className="bi bi-play-fill"></i></>
+            <>Play Music  <br /> <i className="bi bi-play-fill"></i></>
         )}
     </button>
 
