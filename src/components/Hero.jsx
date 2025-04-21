@@ -39,7 +39,7 @@ const hero = () => {
 
       {/* Área principal - background ou conteúdo */}
       <div
-        className="w-4/5 bg-cover bg-center -translate-y-65 p-8 text-white"
+        className="flex justify-center m-auto w-4/5 bg-cover bg-center -translate-y-65 p-8 text-white"
         style={{
           backgroundImage: "url('/bg-2.jpeg')",
           backgroundSize: "80%", // Aumenta o "zoom"
@@ -48,8 +48,8 @@ const hero = () => {
         }}
       >
 
-        <Trailer />
-
+        <Trailer/>
+        
         {/* <h2 className="text-4xl font-bold mb-4">Bem-vindo!</h2>
         <p>Aqui vai o conteúdo da sua Hero section com imagem ao fundo.</p> */}
       </div>
