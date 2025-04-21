@@ -22,7 +22,7 @@ const PlayMusicButton = () => {
 
   return (
     <div>
-    <button onClick={PlayMusic} className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 w-45 h-20 text-2xl bg-transparent border border-black dark:border-white dark:text-white text-black font-bold transform hover:scale-95 transition duration-400">
+    <button onClick={PlayMusic} className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 w-45 h-20 text-2xl bg-transparent border border-white text-white font-bold transform hover:scale-95 transition duration-400">
         {isPlaying ? (
             <>Play Music <i class="bi bi-pause-fill"></i></>
         ) : (
