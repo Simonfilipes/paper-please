@@ -28,7 +28,8 @@ const Trailer = () => {
 
       <video
         ref={videoRef}
-        className={`transition-all ease-in-out duration-1000 mt-190 scroll-reveal w-180 h-100 rounded-sm shadow-lg ${
+        className={`transition-all ease-in-out duration-1000 mt-190 scroll-reveal w-180 h-100 rounded-sm shadow-lg 2xl:mt-200
+ ${
           !isPaused
             ? "border-2 border-white rounded-2x"
             : "border-2 border-white rounded-2x"
@@ -44,7 +45,7 @@ const Trailer = () => {
 
 
       <button
-        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-90 -translate-y-1/2 w-16 h-16 p-0 text-white bg-transparent border-2 border-white rounded-full flex items-center justify-center ${
+        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-90 -translate-y-1/2 w-16 h-16 p-0 text-white bg-transparent border-2 border-white rounded-full flex items-center justify-center 2xl:mt-100 ${
           !isPaused ? "opacity-0" : ""
         }`}
         onClick={playPauseVideo}

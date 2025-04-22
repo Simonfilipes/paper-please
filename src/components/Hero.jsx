@@ -39,7 +39,7 @@ const hero = () => {
 
       {/* Área principal - background ou conteúdo */}
       <div
-        className="flex justify-center m-auto w-4/5 bg-cover bg-center -translate-y-65 p-8 text-white"
+        className="flex justify-center m-auto w-4/5 bg-cover bg-center -translate-y-65 p-8 text-white 2xl:-translate-y-100"
         style={{
           backgroundImage: "url('/bg-2.jpeg')",
           backgroundSize: "80%", // Aumenta o "zoom"
