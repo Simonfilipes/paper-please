@@ -41,7 +41,7 @@ const Trailer = () => {
   }, []);
 
   return (
-    <div className="relative flex justify-center items-center w-full h-full mt-60">
+    <div className="relative flex justify-center items-center w-full h-full sm:mt-0 md:mt-60">
       <div 
         className="relative"
         onMouseEnter={() => setIsHovered(true)}

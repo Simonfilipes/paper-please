@@ -104,7 +104,7 @@ const Hero = () => {
       <div className="relative flex-1 flex items-center justify-center bg-gray-800 overflow-hidden">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
 
-        <div className="w-full h-full bg-cover bg-center bg-[url('/bg.png')] max-sm:bg-none"></div>
+        <div className="w-full h-full bg-cover bg-center sm:bg-none md:bg-[url('/bg.png')] "></div>
 
         <div className="absolute z-20 w-full max-w-4xl px-4">
           <Trailer />
