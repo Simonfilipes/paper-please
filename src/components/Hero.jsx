@@ -1,8 +1,30 @@
 import React from "react";
 import PlayMusicButton from "./PlayMusicButton";
 import Trailer from "./Trailer";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [isLoading, SetIsLoading] = useState(true);
+
+  useEffect(() => {
+
+    const timer = setTimeout(() => {
+      SetIsLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+
+  }, [])
+
+  if (isLoading){
+    return (
+      <div className="flex items-center justify-center h-screen bg-gray-900">
+        <div className="text-white text-2xl animate-pulse">
+          Loading Documents...
+        </div>
+      </div>
+    )
+  }
   return (
     <div className="flex flex-col lg:flex-row h-screen w-screen overflow-hidden">
       {/* Lateral esquerda - menu */}
